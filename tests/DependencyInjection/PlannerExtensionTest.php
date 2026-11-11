@@ -77,6 +77,7 @@ class PlannerExtensionTest extends TestCase
                 'view_all_planner',
                 'edit_other_planner',
                 'manage_reservations_planner',
+                'plan_reservations_planner',
             ],
             'ROLE_SUPER_ADMIN' => [
                 'view_planner',
@@ -88,6 +89,7 @@ class PlannerExtensionTest extends TestCase
                 'view_all_planner',
                 'edit_other_planner',
                 'manage_reservations_planner',
+                'plan_reservations_planner',
             ],
         ], $kimaiConfig['permissions']['roles']);
     }

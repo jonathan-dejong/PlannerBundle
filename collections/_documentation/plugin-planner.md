@@ -81,6 +81,7 @@ The plugin registers dedicated permissions that integrate seamlessly into Kimai'
 | `view_other_planner` | View the members of the teams you lead in the weekly planner | `ROLE_TEAMLEAD`, `ROLE_ADMIN`, `ROLE_SUPER_ADMIN` |
 | `view_all_planner` | View everyone's plans, read-only | `ROLE_ADMIN`, `ROLE_SUPER_ADMIN` |
 | `edit_other_planner` | Create, edit, and delete activities for other users | `ROLE_TEAMLEAD`, `ROLE_ADMIN`, `ROLE_SUPER_ADMIN` |
+| `plan_reservations_planner` | Plan reserved time | `ROLE_ADMIN`, `ROLE_SUPER_ADMIN` |
 
 Permissions can be customized anytime via the Kimai UI under **System > Role permissions**.
 

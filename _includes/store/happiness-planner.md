@@ -46,6 +46,7 @@ bin/console cache:clear
 | `view_other_planner` | View the members of the teams you lead | Teamlead, Admin, Super-Admin |
 | `view_all_planner` | View everyone's plans, read-only | Admin, Super-Admin |
 | `edit_other_planner` | Create, edit and delete plannings for other users | Teamlead, Admin, Super-Admin |
+| `plan_reservations_planner` | Plan reserved time | Admin, Super-Admin |
 
 Permissions can be adjusted under **System > Role permissions**.
 
